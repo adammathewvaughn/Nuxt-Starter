@@ -23,6 +23,7 @@ html {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
+  background-color: #FdC0ae;
 }
 
 *,
@@ -30,6 +31,15 @@ html {
 *::after {
   box-sizing: border-box;
   margin: 0;
+}
+h1 {
+  background-color:white;
+  border: 1px solid black ;
+  border-radius: 2px
+}
+
+svg {
+  background-color:white;
 }
 
 .button--green {
@@ -39,6 +49,7 @@ html {
   color: #3b8070;
   text-decoration: none;
   padding: 10px 30px;
+  background-color:white;
 }
 
 .button--green:hover {
@@ -54,6 +65,7 @@ html {
   text-decoration: none;
   padding: 10px 30px;
   margin-left: 15px;
+  background-color:white;
 }
 
 .button--grey:hover {
